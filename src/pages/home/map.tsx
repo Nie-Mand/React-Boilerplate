@@ -12,6 +12,5 @@ const mapDispatchToProps = {
   decrement: actions.decrement.run,
 }
 
-console.log({ mapDispatchToProps })
 export default Component =>
   connect(mapStateToProps, mapDispatchToProps)(Component)
